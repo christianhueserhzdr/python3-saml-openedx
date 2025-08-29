@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 setup(
-    name='python3-saml',
+    name='python3-saml-openedx',
     version='1.16.0',
     description='Saml Python Toolkit. Add SAML support to your Python software using this library',
     classifiers=[
@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.12',
     ],
     license='MIT',
-    url='https://github.com/SAML-Toolkits/python3-saml',
+    url='https://github.com/christianhueserhzdr/python3-saml-openedx',
     packages=['onelogin', 'onelogin/saml2'],
     include_package_data=True,
     package_data={
